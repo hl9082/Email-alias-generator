@@ -1,0 +1,10 @@
+com\entity\UserInfo.class
+com\controller\UserController.class
+com\service\JwtService.class
+com\service\UserInfoService.class
+com\filter\JwtAuthFilter.class
+com\repository\UserInfoRepository.class
+com\service\UserInfoDetails.class
+com\DemoApplication.class
+com\entity\AuthRequest.class
+com\config\SecurityConfig.class
