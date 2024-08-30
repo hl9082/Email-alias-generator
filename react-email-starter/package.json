@@ -1,0 +1,25 @@
+{
+  "name": "emails",
+  "version": "0.0.19",
+  "private": true,
+  "scripts": {
+    "build": "email build",
+    "dev": "email dev",
+    "export": "email export",
+    "email": "email dev --dir src/emails",
+    "type": "module",
+    "presets": "@babel/preset-typescript"
+  },
+  "dependencies": {
+    "@react-email/components": "^0.0.18",
+    "react": "^18.2.0",
+    "react-email": "^2.1.4",
+    "resend": "^3.3.0"
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.24.7",
+    "@hint/hint-no-inline-styles": "^1.0.18",
+    "@types/react": "18.2.33",
+    "@types/react-dom": "18.2.14"
+  }
+}
